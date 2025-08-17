@@ -125,6 +125,8 @@ print(car1.display_car())
 print(car2.display_car())
 print("Total cars created:", Car.get_total_cars())
 
+# ------------------------------------------------------------
+
 # Exercise 6: Student Grade Tracker
 class Student:
     school_name = "Greenwood High"
@@ -151,8 +153,10 @@ class Student:
 stu = Student("Emily")
 stu.add_grade(90)
 stu.add_grade(85)
-stu.add_grade(105)
+stu.add_grade(105)  # Invalid
 print(stu.student_info())
+
+# ------------------------------------------------------------
 
 # Exercise 7: Restaurant Order System
 class MenuItem:

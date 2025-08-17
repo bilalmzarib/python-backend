@@ -1,0 +1,4 @@
+=== Function Output Log ===
+Closure Example Output: 10
+Decorated say_hello Output: Hello, Ali!
+Slow Function Result: Finished slow function
