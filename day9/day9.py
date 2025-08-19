@@ -1,7 +1,7 @@
 import time
 
 
-# 1. Closure
+
 
 def make_multiplier(factor):
     def multiply(number):
@@ -9,9 +9,8 @@ def make_multiplier(factor):
     return multiply
 
 double = make_multiplier(2)
-print("Closure Example - double(5):", double(5))  # Output: 10
+print("Closure Example - double(5):", double(5))  
 
-# 2. Decorator - basic structure
 
 def greet_decorator(func):
     def wrapper(name):
@@ -28,7 +27,7 @@ def say_hello(name):
 print(say_hello("Ali"))  
 
 
-# 3. Decorator to measure execution time
+
 
 def timing_decorator(func):
     def wrapper(*args, **kwargs):
@@ -47,9 +46,6 @@ def slow_function():
 
 result = slow_function()
 
-# 4. Context Manager with 'with' statement
-
-# Using with to write result to file
 file_path = "results.txt"
 
 with open(file_path, "w", encoding="utf-8") as file:
