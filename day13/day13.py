@@ -16,7 +16,7 @@ async def download_file(session, url, index):
         filename = f"file_{index}.jpg"
         with open(filename, "wb") as f:
             f.write(content)
-        print(f"✅ تم تحميل {filename}")
+        print(f" تم تحميل {filename}")
 
 
 async def main():
