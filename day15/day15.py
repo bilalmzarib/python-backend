@@ -30,7 +30,7 @@ print(df[df['Age'] > 30])
 print("\n====================\n")
 
 print("=== Image Processing with Pillow ===")
-image_path = "example.jpg"
+image_path = "day15/348753.png"
 
 try:
     img = Image.open(image_path)
